@@ -155,3 +155,10 @@ html {
 .scrnshts {
     background-color: rgba(0, 0, 0, 0.5);
 }
+#menu {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    border: 2px solid white;
+    font-family: "OMORI_GAME2_RUS", sans-serif;
+}
