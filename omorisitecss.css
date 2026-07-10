@@ -144,9 +144,7 @@ html {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
-.heada:hover {
-    transform: scale(1.1);
-}
+
 * {
     padding: 0;
     margin: 0;
@@ -157,8 +155,22 @@ html {
 }
 #menu {
     display: none;
-    flex-direction: column;
     background-color: black;
     border: 2px solid white;
+    flex-direction: column;
+    position: absolute;
+}
+#menu a {
     font-family: "OMORI_GAME2_RUS", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    padding: 8px;
+}
+#menu a:hover {
+    color: yellow;
+}
+.explore {
+    position: relative;
+    align-content: center;
 }

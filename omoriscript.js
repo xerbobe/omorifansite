@@ -8,11 +8,13 @@ button.onclick = showMenu;
 function showMenu() {
 
     if (show === false) {
-        menu.style.display = "block";
+        menu.style.display = "flex";
+        button.style.transform = "translateY(-20px)"
         show = true;
     } 
     else {
         menu.style.display = "none";
+        button.style.transform = "translateY(0px)";
         show = false;
     }
 
